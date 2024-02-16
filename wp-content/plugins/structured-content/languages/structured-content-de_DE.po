@@ -1,0 +1,2027 @@
+# Copyright (C) 2019 Gordon Böhme, Antonio Leutsch, Marcel Deutschel, Rene Reimann
+# This file is distributed under the same license as the Structured Content plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Structured Content 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/structured-"
+"content\n"
+"POT-Creation-Date: 2022-07-08T13:43:36+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+
+#. Plugin Name of the plugin
+#: includes/class-structuredcontent-register-tinymce.php:96
+msgid "Structured Content"
+msgstr "Structured Content"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/structured-content/"
+msgstr "https://de.wordpress.org/plugins/structured-content/"
+
+#. Description of the plugin
+msgid ""
+"Pimp your content with some feature boxes, which labels the output with "
+"micro formats http://schema.org/"
+msgstr "Füge Inhaltsboxen mit JSON-LD-Mikrodatenausgabe gemäß schema.org hinzu"
+
+#. Author of the plugin
+msgid "Gordon Böhme, Antonio Leutsch"
+msgstr "Gordon Böhme, Antonio Leutsch"
+
+#. Author URI of the plugin
+msgid "https://wpsc-plugin.com"
+msgstr "https://wpsc-plugin.de"
+
+#: class-structuredcontent.php:73 class-structuredcontent.php:85
+msgid "Ahh not so funny Dude?"
+msgstr "Aaah, nicht lustig?"
+
+#: includes/class-structuredcontent-block-settings.php:81
+msgid "Enable or disable blocks"
+msgstr "Blöcke aktivieren oder deaktivieren"
+
+#: languages/structured-content-js.php:14
+msgid "Single FAQ"
+msgstr "Einzelne FAQ"
+
+#: languages/structured-content-js.php:16
+msgid "Adds a FAQ block to the page."
+msgstr "FAQ-Block einfügen."
+
+#: languages/structured-content-js.php:18
+msgid "Multi FAQ"
+msgstr "Multi FAQ"
+
+#: languages/structured-content-js.php:20
+msgid "Adds multiple FAQ blocks to the page."
+msgstr "Mehrere FAQ-Blöcke einfügen."
+
+#: languages/structured-content-js.php:22
+msgid "Featured Snippet FAQ"
+msgstr "Featured Snippet FAQ"
+
+#: languages/structured-content-js.php:24
+msgid "Job"
+msgstr "Job"
+
+#: languages/structured-content-js.php:26
+msgid "Adds a Job Posting block to the page."
+msgstr "Job Posting-Block einfügen."
+
+#: languages/structured-content-js.php:28
+msgid "Featured Snippet Job"
+msgstr "Featured Snippet Job"
+
+#: languages/structured-content-js.php:30
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: languages/structured-content-js.php:32
+msgid "Adds a Event block to the page."
+msgstr "Veranstaltungs-Block einfügen."
+
+#: languages/structured-content-js.php:34
+msgid "Featured Snippet Event"
+msgstr "Featured Snippet Event"
+
+#: languages/structured-content-js.php:36
+#: languages/structured-content-js.php:86 templates/shortcodes/event.php:208
+msgid "Person"
+msgstr "Person"
+
+#: languages/structured-content-js.php:38
+msgid "Adds a Person block to the page."
+msgstr "Personen-Block einfügen."
+
+#: languages/structured-content-js.php:40
+msgid "Featured Snippet Person"
+msgstr "Featured Snippet Person"
+
+#: languages/structured-content-js.php:42
+msgid "Course"
+msgstr "Kurse"
+
+#: languages/structured-content-js.php:44
+msgid "Adds a Course block to the page."
+msgstr "Kurs-Block einfügen."
+
+#: languages/structured-content-js.php:46
+msgid "Featured Snippet Course"
+msgstr "Featured Snippet Course"
+
+#: languages/structured-content-js.php:48
+msgid "Render HTML"
+msgstr "HTML ausgeben"
+
+#: languages/structured-content-js.php:50
+msgid "Title Tag"
+msgstr "Titel"
+
+#: languages/structured-content-js.php:52
+msgid "Question"
+msgstr "Frage"
+
+#: languages/structured-content-js.php:54
+msgid "Enter Your Question here..."
+msgstr "Frage hier eingeben ..."
+
+#: languages/structured-content-js.php:56
+msgid "Answer"
+msgstr "Antwort"
+
+#: languages/structured-content-js.php:58
+msgid "Enter your answer here..."
+msgstr "Antwort hier eingeben."
+
+#: languages/structured-content-js.php:60
+msgid "Job title"
+msgstr "Berufsbezeichnung"
+
+#: languages/structured-content-js.php:62
+#: languages/structured-content-js.php:116
+msgid "Please enter your job title here ..."
+msgstr "Hier Titel des Jobs eingeben."
+
+#: languages/structured-content-js.php:64
+msgid "Description"
+msgstr "Beschreibung"
+
+#: languages/structured-content-js.php:66
+msgid "Enter your job description here..."
+msgstr "Hier Stellenbeschreibung eingeben."
+
+#: languages/structured-content-js.php:68
+msgid "Event title"
+msgstr "Veranstaltungstitel"
+
+#: languages/structured-content-js.php:70
+msgid "Please enter your event title here ..."
+msgstr "Titel der Veranstaltung eingeben."
+
+#: languages/structured-content-js.php:72
+msgid "Enter your event description here..."
+msgstr "Beschreibe die Veranstaltung."
+
+#: languages/structured-content-js.php:74 templates/shortcodes/event.php:41
+msgid "Event Meta"
+msgstr "Zusatzinfo"
+
+#: languages/structured-content-js.php:76
+msgid "Event Location name"
+msgstr "Name des Veranstaltungsortes"
+
+#: languages/structured-content-js.php:78 templates/shortcodes/event.php:110
+msgid "Event Location"
+msgstr "Veranstaltungsort"
+
+#: languages/structured-content-js.php:80
+#: languages/structured-content-js.php:88 templates/shortcodes/event.php:195
+msgid "Performer"
+msgstr "Ausführende"
+
+#: languages/structured-content-js.php:82 templates/shortcodes/event.php:199
+msgid "Type"
+msgstr "Typ"
+
+#: languages/structured-content-js.php:84 templates/shortcodes/event.php:205
+msgid "Performing Group"
+msgstr "Durchführende Organisation"
+
+#: languages/structured-content-js.php:90
+msgid "John Doe"
+msgstr "Max Mustermann"
+
+#: languages/structured-content-js.php:92
+#: languages/structured-content-js.php:94 templates/shortcodes/event.php:227
+msgid "Offer"
+msgstr "Angebot"
+
+#: languages/structured-content-js.php:96 templates/shortcodes/event.php:232
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: languages/structured-content-js.php:98 templates/shortcodes/event.php:238
+msgid "In Stock"
+msgstr "Auf Lager"
+
+#: languages/structured-content-js.php:100 templates/shortcodes/event.php:241
+msgid "Sold Out"
+msgstr "Ausverkauft"
+
+#: languages/structured-content-js.php:102 templates/shortcodes/event.php:244
+msgid "Pre Order"
+msgstr "Vorbestellung"
+
+#: languages/structured-content-js.php:104 templates/shortcodes/event.php:252
+msgid "Ticket Website"
+msgstr "Ticket Website"
+
+#: languages/structured-content-js.php:106
+#: languages/structured-content-js.php:154
+msgid "https://your-website.com"
+msgstr "https://deine-website.de"
+
+#: languages/structured-content-js.php:108 templates/shortcodes/event.php:271
+msgid "Price"
+msgstr "Preis"
+
+#: languages/structured-content-js.php:110
+msgid "Alternate Name..."
+msgstr "Alternativer Name."
+
+#: languages/structured-content-js.php:112
+msgid "Please enter your Name"
+msgstr "Hier Namen eintragen"
+
+#: languages/structured-content-js.php:114 templates/shortcodes/person.php:54
+msgid "Job Title"
+msgstr "Berufsangaben"
+
+#: languages/structured-content-js.php:118
+#: templates/shortcodes/local-business.php:22
+#: templates/shortcodes/local-business.php:119
+#: templates/shortcodes/person.php:105
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: languages/structured-content-js.php:120
+msgid "jane-doe@xyz.edu"
+msgstr "max@mustermann.de"
+
+#: languages/structured-content-js.php:122
+#: languages/structured-content-js.php:300 templates/shortcodes/event.php:135
+#: templates/shortcodes/person.php:113 templates/shortcodes/person.php:185
+#: templates/shortcodes/person.php:286
+msgid "URL"
+msgstr "URL"
+
+#: languages/structured-content-js.php:124
+msgid "http://www.janedoe.com"
+msgstr "https://www.domain.de"
+
+#: languages/structured-content-js.php:126 templates/shortcodes/person.php:64
+msgid "Birthdate"
+msgstr "Geburtsdatum"
+
+#: languages/structured-content-js.php:128 templates/shortcodes/person.php:78
+msgid "Image"
+msgstr "Bild"
+
+#: languages/structured-content-js.php:130
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: languages/structured-content-js.php:132
+msgid "Image Description"
+msgstr "Bildbeschreibung"
+
+#: languages/structured-content-js.php:134
+msgid "CSS class"
+msgstr "CSS Klasse"
+
+#: languages/structured-content-js.php:136
+msgid "additional css classes ..."
+msgstr "Zusätzliche CSS-Klasse."
+
+#: languages/structured-content-js.php:138 templates/shortcodes/job.php:29
+msgid "Company"
+msgstr "Arbeitgeber"
+
+#: languages/structured-content-js.php:140 templates/shortcodes/event.php:47
+#: templates/shortcodes/event.php:216 templates/shortcodes/job.php:35
+#: templates/shortcodes/person.php:35
+msgid "Name"
+msgstr "Name"
+
+#: languages/structured-content-js.php:142
+#: languages/structured-content-js.php:260 templates/shortcodes/person.php:44
+#: templates/shortcodes/person.php:224
+msgid "Alternate Name"
+msgstr "Alternativer Name"
+
+#: languages/structured-content-js.php:144
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: languages/structured-content-js.php:146
+msgid "Enter the name of the company"
+msgstr "Firmennamen eingeben"
+
+#: languages/structured-content-js.php:148
+#: templates/shortcodes/local-business.php:309
+#: templates/shortcodes/person.php:282
+msgid "Same as"
+msgstr "Zugehörige (Profil)Websites"
+
+#: languages/structured-content-js.php:150
+msgid "Website / Social Media"
+msgstr "Website / Social Media"
+
+#: languages/structured-content-js.php:152 templates/shortcodes/course.php:40
+#: templates/shortcodes/job.php:43
+msgid "Same as (Website / Social Media)"
+msgstr "Zugehörige (Profil)Websites"
+
+#: languages/structured-content-js.php:156 templates/shortcodes/job.php:75
+msgid "Job Location"
+msgstr "Arbeitsort"
+
+#: languages/structured-content-js.php:158
+#: templates/shortcodes/local-business.php:32
+#: templates/shortcodes/local-business.php:143
+#: templates/shortcodes/person.php:121
+msgid "Telephone"
+msgstr "Telefon"
+
+#: languages/structured-content-js.php:160
+msgid "(425) 123-4567"
+msgstr "0345-12345-67"
+
+#: languages/structured-content-js.php:162 templates/shortcodes/event.php:146
+#: templates/shortcodes/job.php:79 templates/shortcodes/local-business.php:166
+#: templates/shortcodes/person.php:136
+msgid "Street"
+msgstr "Straße"
+
+#: languages/structured-content-js.php:164
+msgid "Any Street 3A"
+msgstr "Beispielstrasse 3A"
+
+#: languages/structured-content-js.php:166 templates/shortcodes/event.php:155
+#: templates/shortcodes/job.php:88 templates/shortcodes/local-business.php:177
+#: templates/shortcodes/person.php:145
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: languages/structured-content-js.php:168
+msgid "Any Postal Code"
+msgstr "06114"
+
+#: languages/structured-content-js.php:170 templates/shortcodes/event.php:163
+#: templates/shortcodes/job.php:96 templates/shortcodes/local-business.php:187
+#: templates/shortcodes/person.php:153
+msgid "Locality"
+msgstr "Ort"
+
+#: languages/structured-content-js.php:172
+msgid "Any City"
+msgstr "Musterstadt"
+
+#: languages/structured-content-js.php:174 templates/shortcodes/event.php:173
+#: templates/shortcodes/job.php:106 templates/shortcodes/local-business.php:199
+#: templates/shortcodes/person.php:163
+msgid "Country ISO Code"
+msgstr "Land (ISO Code)"
+
+#: languages/structured-content-js.php:176 dist/blocks.build.js:9642
+#: dist/blocks.build.js:9686 dist/blocks.build.js:9710
+#: dist/blocks.build.js:9770
+msgid "US"
+msgstr "DE"
+
+#: languages/structured-content-js.php:178 templates/shortcodes/event.php:181
+#: templates/shortcodes/job.php:114 templates/shortcodes/local-business.php:209
+#: templates/shortcodes/person.php:171
+msgid "Region ISO Code"
+msgstr "Region (ISO Code)"
+
+#: languages/structured-content-js.php:180
+msgid "CA"
+msgstr "DE-ST"
+
+#: languages/structured-content-js.php:182 templates/shortcodes/event.php:263
+#: templates/shortcodes/job.php:160
+msgid "Currency ISO Code"
+msgstr "Währung (ISO Code)"
+
+#: languages/structured-content-js.php:184 dist/blocks.build.js:9642
+#: dist/blocks.build.js:9686
+msgid "USD"
+msgstr "EUR"
+
+#: languages/structured-content-js.php:186 templates/shortcodes/job.php:168
+msgid "Value"
+msgstr "Wert"
+
+#: languages/structured-content-js.php:188 templates/shortcodes/job.php:179
+msgid "Job Meta"
+msgstr "Job-Details"
+
+#: languages/structured-content-js.php:190 templates/shortcodes/job.php:127
+msgid "Salary"
+msgstr "Gehalt"
+
+#: languages/structured-content-js.php:192 templates/shortcodes/job.php:132
+msgid "Unit"
+msgstr "Einheit"
+
+#: languages/structured-content-js.php:194 templates/shortcodes/job.php:138
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: languages/structured-content-js.php:196 templates/shortcodes/job.php:141
+msgid "Daily"
+msgstr "Täglich"
+
+#: languages/structured-content-js.php:198 templates/shortcodes/job.php:144
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: languages/structured-content-js.php:200 templates/shortcodes/job.php:147
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: languages/structured-content-js.php:202 templates/shortcodes/job.php:150
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: languages/structured-content-js.php:204 templates/shortcodes/job.php:184
+msgid "Employment Type"
+msgstr "Beschäftigungsart"
+
+#: languages/structured-content-js.php:206 templates/shortcodes/job.php:190
+msgid "Full Time"
+msgstr "Vollzeit"
+
+#: languages/structured-content-js.php:208 templates/shortcodes/job.php:193
+msgid "Part Time"
+msgstr "Teilzeit"
+
+#: languages/structured-content-js.php:210 templates/shortcodes/job.php:196
+msgid "Contractor"
+msgstr "Auftragnehmer"
+
+#: languages/structured-content-js.php:212 templates/shortcodes/job.php:199
+msgid "Temporary"
+msgstr "Befristet"
+
+#: languages/structured-content-js.php:214 templates/shortcodes/job.php:202
+msgid "Intern"
+msgstr "Praktikant"
+
+#: languages/structured-content-js.php:216 templates/shortcodes/job.php:205
+msgid "Volunteer"
+msgstr "Volontär"
+
+#: languages/structured-content-js.php:218 templates/shortcodes/job.php:208
+msgid "Per Diem"
+msgstr "Tageweise"
+
+#: languages/structured-content-js.php:220 templates/shortcodes/job.php:211
+msgid "Other"
+msgstr "Andere"
+
+#: languages/structured-content-js.php:222 templates/shortcodes/person.php:29
+msgid "Personal"
+msgstr "Personenangaben"
+
+#: languages/structured-content-js.php:224 templates/shortcodes/person.php:101
+msgid "Contact"
+msgstr "Kontakt"
+
+#: languages/structured-content-js.php:226
+#: templates/shortcodes/local-business.php:161
+#: templates/shortcodes/person.php:132
+msgid "Address"
+msgstr "Adresse"
+
+#: languages/structured-content-js.php:228
+msgid "Colleagues"
+msgstr "Mitarbeiter"
+
+#: languages/structured-content-js.php:230 templates/shortcodes/person.php:181
+msgid "Colleague"
+msgstr "Kollege"
+
+#: languages/structured-content-js.php:232
+msgid "Comma seperated URLs"
+msgstr "URL zur Profilseite"
+
+#: languages/structured-content-js.php:234
+msgid "Course Name"
+msgstr "Kursname"
+
+#: languages/structured-content-js.php:236
+msgid "Enter your Course Name here..."
+msgstr "Hier Kursnamen eingeben."
+
+#: languages/structured-content-js.php:238
+msgid "Enter your Course Description here..."
+msgstr "Hier Kursbeschreibung eingeben."
+
+#: languages/structured-content-js.php:240 templates/shortcodes/course.php:27
+msgid "Provider Information"
+msgstr "Veranstalterinformationen"
+
+#: languages/structured-content-js.php:242 templates/shortcodes/course.php:32
+msgid "Provider Name"
+msgstr "Veranstaltername"
+
+#: languages/structured-content-js.php:244 templates/shortcodes/job.php:230
+msgid "Valid Through"
+msgstr "Gültig bis"
+
+#: languages/structured-content-js.php:246 templates/shortcodes/event.php:280
+msgid "Valid From"
+msgstr "Gültig ab"
+
+#: languages/structured-content-js.php:248
+msgid "Additional"
+msgstr "Zusätzlich"
+
+#: languages/structured-content-js.php:250 dist/blocks.build.js:9686
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#: languages/structured-content-js.php:252
+msgid "Remove Last One"
+msgstr "Letzten Eintrag entfernen"
+
+#: languages/structured-content-js.php:254 templates/shortcodes/person.php:209
+msgid "Work"
+msgstr "Arbeitgeber"
+
+#: languages/structured-content-js.php:256 templates/shortcodes/person.php:213
+msgid "Organisation Name"
+msgstr "Name der Organisation"
+
+#: languages/structured-content-js.php:258
+msgid "Your Works Name"
+msgstr "Name des Arbeitgebers"
+
+#: languages/structured-content-js.php:262
+msgid "Your Works Alternate Name"
+msgstr "Alternativer Arbeitgebername"
+
+#: languages/structured-content-js.php:264
+#: templates/shortcodes/local-business.php:131
+#: templates/shortcodes/person.php:242
+msgid "Url"
+msgstr "URL"
+
+#: languages/structured-content-js.php:266
+msgid "Organisation Website"
+msgstr "URL zur Website des Arbeitgebers"
+
+#: languages/structured-content-js.php:268 templates/shortcodes/job.php:54
+#: templates/shortcodes/person.php:256
+msgid "Logo"
+msgstr "Logo"
+
+#: languages/structured-content-js.php:270
+msgid "Organisation Logo"
+msgstr "URL zum Logo des Arbeitgebers"
+
+#: languages/structured-content-js.php:272 templates/shortcodes/event.php:55
+msgid "Event Status"
+msgstr "Veranstaltungsstatus"
+
+#: languages/structured-content-js.php:274 templates/shortcodes/event.php:91
+msgid "Start Date"
+msgstr "Veranstaltungsbeginn"
+
+#: languages/structured-content-js.php:276 templates/shortcodes/event.php:99
+msgid "End Date"
+msgstr "Veranstaltungsende"
+
+#: languages/structured-content-js.php:278 templates/shortcodes/event.php:61
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: languages/structured-content-js.php:280 templates/shortcodes/event.php:64
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#: languages/structured-content-js.php:282 templates/shortcodes/event.php:67
+msgid "Moved Online"
+msgstr "Findet online statt"
+
+#: languages/structured-content-js.php:284 templates/shortcodes/event.php:70
+msgid "Postponed"
+msgstr "Verschoben"
+
+#: languages/structured-content-js.php:286 templates/shortcodes/event.php:73
+msgid "Rescheduled"
+msgstr "Neu geplant"
+
+#: languages/structured-content-js.php:288 templates/shortcodes/event.php:82
+msgid "Previous Start Date"
+msgstr "Früheres Startdatum"
+
+#: languages/structured-content-js.php:290
+msgid "optional"
+msgstr "Optional – nur nötig bei Status: Neu geplant"
+
+#: languages/structured-content-js.php:292 templates/shortcodes/event.php:114
+msgid "Attendance Mode"
+msgstr "Teilnahmemodus"
+
+#: languages/structured-content-js.php:294 templates/shortcodes/event.php:120
+msgid "Offline"
+msgstr "Offline"
+
+#: languages/structured-content-js.php:296 templates/shortcodes/event.php:123
+msgid "Online"
+msgstr "Online"
+
+#: languages/structured-content-js.php:298 templates/shortcodes/event.php:126
+msgid "Mixed"
+msgstr "Gemischt"
+
+#: languages/structured-content-js.php:302
+msgid "Online URL of Event"
+msgstr "URL der Online-Veranstaltung"
+
+#: templates/shortcodes/job.php:221
+msgid "Location Type"
+msgstr "Arbeitsort"
+
+#: templates/shortcodes/job.php:224
+msgid "The job is telecommute."
+msgstr "Es ist ein Telearbeitsplatz."
+
+#: templates/shortcodes/local-business.php:15
+msgid "Business"
+msgstr "Unternehmen"
+
+#: templates/shortcodes/local-business.php:42
+msgid "Website"
+msgstr "Website"
+
+#: templates/shortcodes/local-business.php:56
+msgctxt "Image of the business"
+msgid "Image"
+msgstr "Standort-Bild"
+
+#: templates/shortcodes/local-business.php:78
+msgctxt "Logo of the business"
+msgid "Logo"
+msgstr "Logo"
+
+#: templates/shortcodes/local-business.php:102
+msgid "CONTACT"
+msgstr "Kontakt"
+
+#: templates/shortcodes/local-business.php:109
+msgid "Contact Type"
+msgstr "Kontaktart"
+
+#: templates/shortcodes/local-business.php:221
+msgid "Latitude"
+msgstr "Latitude (Breitengrad)"
+
+#: templates/shortcodes/local-business.php:231
+msgid "Longitude"
+msgstr "Longitude (Längengrad)"
+
+#: templates/shortcodes/local-business.php:244
+msgid "Meta"
+msgstr "Meta"
+
+#: templates/shortcodes/local-business.php:249
+msgid "Founding Date"
+msgstr "Gründungsdatum"
+
+#: templates/shortcodes/local-business.php:259
+msgid "Currencies Accepted"
+msgstr "Akzeptierte Währungen"
+
+#: templates/shortcodes/local-business.php:270
+msgid "Price Range"
+msgstr "Preisspanne"
+
+#: templates/shortcodes/local-business.php:280
+msgid "Map"
+msgstr "Karte"
+
+#: templates/shortcodes/local-business.php:295
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+#: dist/blocks.build.js:9555
+msgctxt "FAQ item title"
+msgid "FAQ Item"
+msgstr "FAQ – Titel"
+
+#: dist/blocks.build.js:9555 dist/blocks.build.js:9584
+msgctxt "faq question"
+msgid "faq question"
+msgstr "FAQ – Frage"
+
+#: dist/blocks.build.js:9555 dist/blocks.build.js:9584
+msgctxt "faq answer"
+msgid "faq answer"
+msgstr "FAQ – Antwort"
+
+#: dist/blocks.build.js:9555 dist/blocks.build.js:9584
+msgctxt "structured content element faq"
+msgid "structured-content"
+msgstr "FAQ-Element"
+
+#: dist/blocks.build.js:9569
+msgctxt "Answer the question."
+msgid "Enter your answer here"
+msgstr "Antwort hier eingeben"
+
+#: dist/blocks.build.js:9569 dist/blocks.build.js:9642
+#: dist/blocks.build.js:9686 dist/blocks.build.js:9710
+#: dist/blocks.build.js:9748 dist/blocks.build.js:9770
+msgctxt "Custom title ID"
+msgid "Custom title ID"
+msgstr "Individuele title-ID"
+
+#: dist/blocks.build.js:9569
+msgctxt "Custom title ID"
+msgid "Custom title ID for the FAQ title."
+msgstr "Individuelle title-ID (id=#...) für FAQ-Überschrift."
+
+#: dist/blocks.build.js:9569
+msgctxt "Research a meaningful question"
+msgid "Enter Your Question here"
+msgstr "Frage hier eingeben"
+
+#: dist/blocks.build.js:9569
+msgctxt "Illustrate your FAQ with a meaningful image."
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9584
+msgid "FAQ"
+msgstr "FAQ"
+
+#: dist/blocks.build.js:9611 dist/blocks.build.js:9770
+msgctxt "Select a tag of the FAQ title."
+msgid "Title tag"
+msgstr "Title tag"
+
+#: dist/blocks.build.js:9611 dist/blocks.build.js:9642
+#: dist/blocks.build.js:9686 dist/blocks.build.js:9710
+#: dist/blocks.build.js:9748 dist/blocks.build.js:9770
+msgctxt "Generate a title ID"
+msgid "Generate title ID"
+msgstr "Title-ID (id=#...) verwenden."
+
+#: dist/blocks.build.js:9611 dist/blocks.build.js:9642
+#: dist/blocks.build.js:9710 dist/blocks.build.js:9770
+msgctxt "Generate a title ID"
+msgid "Generate a title ID for the FAQ title."
+msgstr "Title-ID (id=#...) für FAQ-Überschrift erstellen."
+
+#: dist/blocks.build.js:9611
+msgctxt "Display summary of the FAQ element."
+msgid "Display as summary element"
+msgstr "FAQ-Elemente als Akkordeon"
+
+#: dist/blocks.build.js:9611
+msgctxt "Animate summary of the FAQ element."
+msgid "Animate the summary element"
+msgstr "Öffnen/Schließen Animation aktivieren"
+
+#: dist/blocks.build.js:9611
+msgctxt "Add another FAQ element."
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#: dist/blocks.build.js:9630
+msgctxt "Job block title"
+msgid "Job"
+msgstr "Job"
+
+#: dist/blocks.build.js:9630
+msgctxt "Job search"
+msgid "job search"
+msgstr "Jobsuche"
+
+#: dist/blocks.build.js:9630
+msgctxt "Job offer"
+msgid "job offer"
+msgstr "Stellenangebot"
+
+#: dist/blocks.build.js:9630
+msgctxt "Structured content element job"
+msgid "structured-content"
+msgstr "JOB-Element"
+
+#: dist/blocks.build.js:9642
+msgctxt "Choose the employment type of the job offer."
+msgid "Select a Type"
+msgstr "Bitte auswählen"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work full time in the job."
+msgid "Full Time"
+msgstr "Vollzeit"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work part time in the job."
+msgid "Part Time"
+msgstr "Teilzeit"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work as a contractor in the job."
+msgid "Contractor"
+msgstr "Auftragnehmer"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work temporary in the job."
+msgid "Temporary"
+msgstr "Befristet"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work as a intern in the job."
+msgid "Intern"
+msgstr "Praktikant"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work as a volunteer in the job."
+msgid "Volunteer"
+msgstr "Volontär"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work per diem in the job."
+msgid "Per Diem"
+msgstr "Tageweise"
+
+#: dist/blocks.build.js:9642
+msgctxt "You can work in some other way in the job."
+msgid "Other"
+msgstr "Andere"
+
+#: dist/blocks.build.js:9642
+msgctxt "Choose in which time unit the job is paid."
+msgid "Select a Type"
+msgstr "Bitte auswählen"
+
+#: dist/blocks.build.js:9642
+msgctxt "The job is paid by hours worked."
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: dist/blocks.build.js:9642
+msgctxt "The job is paid by days worked."
+msgid "Daily"
+msgstr "Täglich"
+
+#: dist/blocks.build.js:9642
+msgctxt "The job is paid by weeks worked."
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: dist/blocks.build.js:9642
+msgctxt "The job is paid by month worked."
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: dist/blocks.build.js:9642
+msgctxt "The job is paid by yearly worked."
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: dist/blocks.build.js:9642
+msgctxt "Select a tag of the job title."
+msgid "Title tag"
+msgstr "Title tag"
+
+#: dist/blocks.build.js:9642 dist/blocks.build.js:9710
+#: dist/blocks.build.js:9770
+msgctxt "Custom title ID"
+msgid "Custom title ID for the Job title."
+msgstr "Individuelle title-ID (id=#...) für Job-Überschrift."
+
+#: dist/blocks.build.js:9642
+msgctxt "Title of the job,"
+msgid "Enter your job title here…"
+msgstr "Hier Stellenbezeichnung eingeben."
+
+#: dist/blocks.build.js:9642
+msgctxt "Details/description about the job offer."
+msgid "Enter your job description here…"
+msgstr "Hier Stellenbeschreibung eingeben."
+
+#: dist/blocks.build.js:9642
+msgctxt "Details about the company/ job provider."
+msgid "Company"
+msgstr "Arbeitgeber"
+
+#: dist/blocks.build.js:9642
+msgctxt "Name of the company/ job provider"
+msgid "Name"
+msgstr "Name"
+
+#: dist/blocks.build.js:9642
+msgctxt "Name of the company that provides the job."
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: dist/blocks.build.js:9642
+msgctxt "Enter a additional profile URL of the job provider."
+msgid "Same as (Website / Social Media)"
+msgstr "Zugehörige (Profil)Websites"
+
+#: dist/blocks.build.js:9642
+msgctxt "Online URL of the job."
+msgid "https://your-website.com"
+msgstr "https://wpsc-plugin.de"
+
+#: dist/blocks.build.js:9642
+msgctxt "Add a company logo for your job offer."
+msgid "Logo"
+msgstr "Logo"
+
+#: dist/blocks.build.js:9642
+msgctxt "Add a image/logo for the job offer."
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9642
+msgctxt "Remove the image/logo for the job offer."
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: dist/blocks.build.js:9642
+msgctxt "Address of the job offer"
+msgid "Job Location"
+msgstr "Arbeitsort"
+
+#: dist/blocks.build.js:9642
+msgctxt "Insert the street name of the job location."
+msgid "Street"
+msgstr "Straße"
+
+#: dist/blocks.build.js:9642
+msgctxt "The concrete street name of the job location."
+msgid "Any Street 3A"
+msgstr "Beispielstrasse 3A"
+
+#: dist/blocks.build.js:9642
+msgctxt "Insert postal code of the job location."
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: dist/blocks.build.js:9642
+msgctxt "The concrete postal code of the job location."
+msgid "Any Postal Code"
+msgstr "06114"
+
+#: dist/blocks.build.js:9642
+msgctxt "Enter the place name of the job location."
+msgid "Locality"
+msgstr "Ort"
+
+#: dist/blocks.build.js:9642
+msgctxt "The concrete city name of the job location."
+msgid "Any city"
+msgstr "Musterstadt"
+
+#: dist/blocks.build.js:9642
+msgctxt "Enter the iso code of the country of the job location."
+msgid "Country ISO Code"
+msgstr "Land (ISO Code)"
+
+#: dist/blocks.build.js:9642
+msgctxt "Enter the iso code of the region of the job location."
+msgid "Region ISO Code"
+msgstr "Region (ISO Code)"
+
+#: dist/blocks.build.js:9642 dist/blocks.build.js:9686
+#: dist/blocks.build.js:9710 dist/blocks.build.js:9770
+msgid "US-CA"
+msgstr "DE-ST"
+
+#: dist/blocks.build.js:9642
+msgctxt "Details on the salary of the job offer."
+msgid "Salary"
+msgstr "Gehalt"
+
+#: dist/blocks.build.js:9642
+msgctxt "In which time unit is the salary paid in the job?"
+msgid "Unit"
+msgstr "Einheit"
+
+#: dist/blocks.build.js:9642
+msgctxt "Select the currency ISO code in which the salary of the job is paid."
+msgid "Currency ISO Code"
+msgstr "Währung (ISO Code)"
+
+#: dist/blocks.build.js:9642
+msgctxt "How much salary is paid?"
+msgid "Value"
+msgstr "Wert"
+
+#: dist/blocks.build.js:9642
+msgctxt "Details about the job offer."
+msgid "Job Meta"
+msgstr "Job-Details"
+
+#: dist/blocks.build.js:9642
+msgctxt "In what form do you want to employ the employee?"
+msgid "Employment Type"
+msgstr "Beschäftigungsart"
+
+#: dist/blocks.build.js:9642
+msgctxt "Is the job telecommute?"
+msgid "Telecommute"
+msgstr "Telearbeit"
+
+#: dist/blocks.build.js:9642
+msgctxt "Until when is the job offer valid?"
+msgid "Valid Through"
+msgstr "Gültig bis"
+
+#: dist/blocks.build.js:9642
+msgctxt "Until when is the job offer valid?"
+msgid "Select Valid Through"
+msgstr "Datum auswählen"
+
+#: dist/blocks.build.js:9661
+msgctxt "Title of the event block"
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: dist/blocks.build.js:9661
+msgid "event"
+msgstr "Veranstaltung"
+
+#: dist/blocks.build.js:9661 dist/blocks.build.js:9723
+msgid "structured-content"
+msgstr "EVENT-Element"
+
+#: dist/blocks.build.js:9686
+msgctxt "Are you a group or a single person as event performer?"
+msgid "Select a Type"
+msgstr "Bitte auswählen"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose that you are a group as event performer"
+msgid "Performing Group"
+msgstr "Künstlergruppe"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose that you are a person as event performer"
+msgid "Person"
+msgstr "Person"
+
+#: dist/blocks.build.js:9686
+msgctxt "Is the event offer available?"
+msgid "Select a Type"
+msgstr "Bitte auswählen"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose that the event offer is in stock."
+msgid "In Stock"
+msgstr "Auf Lager"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose that the event offer is sold out."
+msgid "Sold Out"
+msgstr "Ausverkauft"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose that you can pre order the event offer."
+msgid "Pre Order"
+msgstr "Vorbestellung"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose whether the event is scheduled."
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose whether the event is cancelled."
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose if the event takes place online."
+msgid "Moved Online"
+msgstr "Findet online statt"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose whether the event is postponed."
+msgid "Postponed"
+msgstr "Verschoben"
+
+#: dist/blocks.build.js:9686
+msgctxt "You choose whether the event is rescheduled."
+msgid "Rescheduled"
+msgstr "Neu geplant"
+
+#: dist/blocks.build.js:9686
+msgctxt "Select which attendance mode the event has."
+msgid "Select a Type"
+msgstr "Bitte auswählen"
+
+#: dist/blocks.build.js:9686
+msgctxt "You specify that the event takes place offline."
+msgid "Offline"
+msgstr "Offline"
+
+#: dist/blocks.build.js:9686
+msgctxt "You specify that the event takes place online."
+msgid "Online"
+msgstr "Online"
+
+#: dist/blocks.build.js:9686
+msgctxt "You specify that the event takes place online and offline."
+msgid "Mixed"
+msgstr "Gemischt"
+
+#: dist/blocks.build.js:9686 dist/blocks.build.js:9748
+msgctxt "Custom title ID"
+msgid "Custom title ID for the Event title."
+msgstr "Individuelle title-ID (id=#...) für Event-Überschrift."
+
+#: dist/blocks.build.js:9686
+msgctxt "Give the event a name."
+msgid "Enter Your Event Title…"
+msgstr "Hier Veranstaltungsname eingeben."
+
+#: dist/blocks.build.js:9686
+msgctxt "Add an event image."
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9686
+msgctxt "Describe the event for the visitors"
+msgid "Enter your event description here…"
+msgstr "Beschreibe die Veranstaltung."
+
+#: dist/blocks.build.js:9686
+msgctxt "Enter details of the event."
+msgid "Event Meta"
+msgstr "Zusatzinfo"
+
+#: dist/blocks.build.js:9686
+msgctxt "Where does the event take place?"
+msgid "Name"
+msgstr "Name"
+
+#: dist/blocks.build.js:9686
+msgctxt "What is the name of the venue?"
+msgid "Event Location Name"
+msgstr "Name des Veranstaltungsortes"
+
+#: dist/blocks.build.js:9686
+msgctxt "What is the current status of the event?"
+msgid "Event Status"
+msgstr "Veranstaltungsstatus"
+
+#: dist/blocks.build.js:9686
+msgctxt "When should the event originally take place?"
+msgid "Previous Start Date"
+msgstr "Früheres Startdatum"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event take place?"
+msgid "Select Previous Start Date"
+msgstr "Vorheriges Startdatum"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event take place?"
+msgid "Start Date"
+msgstr "Veranstaltungsbeginn"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event take place?"
+msgid "Select Start Date"
+msgstr "Veranstaltungsbeginn wählen"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event end?"
+msgid "End Date"
+msgstr "Veranstaltungsende"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event take place?"
+msgid "Select End Date"
+msgstr "Veranstaltungsende wählen"
+
+#: dist/blocks.build.js:9686
+msgctxt "Details about the venue."
+msgid "Event Location"
+msgstr "Veranstaltungsort"
+
+#: dist/blocks.build.js:9686
+msgctxt "How is the event held?"
+msgid "Attendance Mode"
+msgstr "Teilnahmemodus"
+
+#: dist/blocks.build.js:9686
+msgctxt "How is the URL of the Event?"
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:9686
+msgctxt "Online URL of the event."
+msgid "https://myevent.com"
+msgstr "https://wpsc-plugin.de"
+
+#: dist/blocks.build.js:9686
+msgctxt "Insert the street name of the event location."
+msgid "Street"
+msgstr "Straße"
+
+#: dist/blocks.build.js:9686
+msgctxt "The concrete street name of the event location."
+msgid "Any Street 3A"
+msgstr "Beispielstrasse 3A"
+
+#: dist/blocks.build.js:9686
+msgctxt "Insert postal code of the event location."
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: dist/blocks.build.js:9686
+msgctxt "The concrete postal code of the event location."
+msgid "Any Postal Code"
+msgstr "06114"
+
+#: dist/blocks.build.js:9686
+msgctxt "Enter the place name of the event"
+msgid "Locality"
+msgstr "Ort"
+
+#: dist/blocks.build.js:9686
+msgctxt "The concrete city name of the event location."
+msgid "Any city"
+msgstr "Musterstadt"
+
+#: dist/blocks.build.js:9686
+msgctxt "Enter the iso code of the country where the event takes place."
+msgid "Country ISO Code"
+msgstr "Land (ISO Code)"
+
+#: dist/blocks.build.js:9686
+msgctxt "Enter the iso code of the region where the event takes place"
+msgid "Region ISO Code"
+msgstr "Region (ISO Code)"
+
+#: dist/blocks.build.js:9686
+msgctxt "Details about the performer"
+msgid "Performer"
+msgstr "Interpret"
+
+#: dist/blocks.build.js:9686
+msgctxt "Select which type of performer you are (group or person)."
+msgid "Type"
+msgstr "Typ"
+
+#: dist/blocks.build.js:9686
+msgctxt "Enter the name of the performer."
+msgid "Name"
+msgstr "Name"
+
+#: dist/blocks.build.js:9686
+msgctxt "Concrete name of the performer."
+msgid "John Doe"
+msgstr "Max Mustermann"
+
+#: dist/blocks.build.js:9686
+msgctxt "Details of the event offer."
+msgid "Offer"
+msgstr "Angebot"
+
+#: dist/blocks.build.js:9686
+msgctxt "Selsct the availability of the event offer."
+msgid "Availability"
+msgstr "Verfügbarkeit"
+
+#: dist/blocks.build.js:9686
+msgctxt "Where to buy tickets of the event?"
+msgid "Ticket Website"
+msgstr "Ticket Website"
+
+#: dist/blocks.build.js:9686
+msgctxt "Concrete URL where to buy tickets of the event."
+msgid "https://your-website.com"
+msgstr "https://wpsc-plugin.de"
+
+#: dist/blocks.build.js:9686
+msgctxt "Select currency ISO code of the event price."
+msgid "Currency ISO Code"
+msgstr "Währung (ISO Code)"
+
+#: dist/blocks.build.js:9686
+msgctxt "What is the ticket price of the event?"
+msgid "Price"
+msgstr "Preis"
+
+#: dist/blocks.build.js:9686
+msgctxt "From when are the event tickets valid?"
+msgid "Valid From"
+msgstr "Gültig ab"
+
+#: dist/blocks.build.js:9686
+msgctxt "When does the event take place?"
+msgid "Select Valid From"
+msgstr "Gültig ab"
+
+#: dist/blocks.build.js:9686
+msgctxt "Select the tag of the event title."
+msgid "Title tag"
+msgstr "Title tag"
+
+#: dist/blocks.build.js:9686
+msgctxt "Generate a title ID"
+msgid "Generate a title ID for the Event title."
+msgstr "Title-ID (id=#...) für Event-Überschrift erstellen."
+
+#: dist/blocks.build.js:9698
+msgctxt "Person block title"
+msgid "Person"
+msgstr "Person"
+
+#: dist/blocks.build.js:9698
+msgctxt "person search"
+msgid "person search"
+msgstr "Jobsuche"
+
+#: dist/blocks.build.js:9698
+msgctxt "person offer"
+msgid "person offer"
+msgstr "Stellenangebot"
+
+#: dist/blocks.build.js:9698
+msgctxt "structured content element person"
+msgid "structured-content"
+msgstr "PERSON-Element"
+
+#: dist/blocks.build.js:9710
+msgctxt "URL to a profile to one of your colleagues."
+msgid "https://xyz.edu/students/alicejones.html"
+msgstr "https://url.de/mitarbeiter/otto-normal.html"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter a additional profile URL to the person."
+msgid "https://xyz.com/me.html"
+msgstr "https://url.de/ueber-mich.html"
+
+#: dist/blocks.build.js:9710
+msgctxt "Some details about the person."
+msgid "Personal"
+msgstr "Personenangaben"
+
+#: dist/blocks.build.js:9710
+msgctxt "Name of the person."
+msgid "Name"
+msgstr "Name"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the name of the person."
+msgid "Please enter your name here."
+msgstr "Bitte Deinen Namen hier eingeben ..."
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the alternate name of the person."
+msgid "Alternate Name"
+msgstr "Alternativer Name"
+
+#: dist/blocks.build.js:9710
+msgctxt "Concrete alternate name of the person."
+msgid "Alternate name"
+msgstr "Altern. Firmennamen eintragen"
+
+#: dist/blocks.build.js:9710
+msgctxt "Actual job title of the person"
+msgid "Job Title"
+msgstr "Berufsangaben"
+
+#: dist/blocks.build.js:9710
+msgctxt "Concrete job title of the person."
+msgid "Please enter your job title here."
+msgstr "Aktuelle Jobbezeichnung."
+
+#: dist/blocks.build.js:9710
+msgctxt "Birthdate of the person."
+msgid "Birthdate"
+msgstr "Geburtsdatum"
+
+#: dist/blocks.build.js:9710
+msgctxt "Select Birthdate of the person"
+msgid "Select Birthdate"
+msgstr "Geburtsdatum"
+
+#: dist/blocks.build.js:9710
+msgctxt "Image of the person."
+msgid "Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9710
+msgctxt "Select image of the person now."
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9710
+msgctxt "Remove the image of the person."
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: dist/blocks.build.js:9710
+msgctxt "How to get in touch with the person?"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: dist/blocks.build.js:9710
+msgctxt "E-Mail of the person."
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: dist/blocks.build.js:9710
+msgctxt "Concrete email of the person."
+msgid "jane-doe@xyz.edu"
+msgstr "max@mustermann.de"
+
+#: dist/blocks.build.js:9710
+msgctxt "URL to a profile of the person."
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:9710
+msgctxt "Concrete URL of the person."
+msgid "http://www.janedoe.com"
+msgstr "https://wpsc-plugin.de"
+
+#: dist/blocks.build.js:9710
+msgctxt "Telephone number of the person."
+msgid "Telephone"
+msgstr "Telefon"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter concrete telephone number of the person."
+msgid "(425) 123-4567"
+msgstr "0345-12345-67"
+
+#: dist/blocks.build.js:9710
+msgctxt "Address of the person."
+msgid "Address"
+msgstr "Adresse"
+
+#: dist/blocks.build.js:9710
+msgctxt "Insert the street name where the person live."
+msgid "Street"
+msgstr "Straße"
+
+#: dist/blocks.build.js:9710
+msgctxt "The concrete street name where the person live."
+msgid "Any Street 3A"
+msgstr "Beispielstrasse 3A"
+
+#: dist/blocks.build.js:9710
+msgctxt "Insert postal code where the person live."
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: dist/blocks.build.js:9710
+msgctxt "The concrete postal code where the person live."
+msgid "Any postal code"
+msgstr "06114"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the place name where the person live."
+msgid "Locality"
+msgstr "Ort"
+
+#: dist/blocks.build.js:9710
+msgctxt "The concrete city name where the person live."
+msgid "Any city"
+msgstr "Musterstadt"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the iso code of the country where the person live."
+msgid "Country ISO Code"
+msgstr "Land (ISO Code)"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the iso code of the region where the person live."
+msgid "Region ISO Code"
+msgstr "Region (ISO Code)"
+
+#: dist/blocks.build.js:9710
+msgctxt "URL to a profile to one of your colleagues."
+msgid "Colleague"
+msgstr "Kollege"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the URL to a profile to one of your colleagues."
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:9710
+msgctxt "Add another colleague."
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#: dist/blocks.build.js:9710
+msgctxt "Details about the workplace of the person."
+msgid "Work"
+msgstr "Arbeitgeber"
+
+#: dist/blocks.build.js:9710
+msgctxt "Name of the company the person works for."
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the name of the company the person works for."
+msgid "Enter company name."
+msgstr "Firmenname eingeben."
+
+#: dist/blocks.build.js:9710
+msgctxt "Alternate name of the company the person works for."
+msgid "Alternate Company Name"
+msgstr "Alternativer Firmenname"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the alternate name of the company the person works for."
+msgid "Alternate name"
+msgstr "Altern. Firmennamen eintragen"
+
+#: dist/blocks.build.js:9710
+msgctxt "URL of the company website the person works for."
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter URL of the company website the person works for."
+msgid "https://xyz.com"
+msgstr "https://url.de/ueber-mich.html"
+
+#: dist/blocks.build.js:9710
+msgctxt "URL to the logo of the company the person works for."
+msgid "Logo"
+msgstr "Logo"
+
+#: dist/blocks.build.js:9710
+msgctxt "Enter the URL to the logo of the company the person works for."
+msgid "https://xyz.com/logo.jpg"
+msgstr "https://url.de/ueber-mich.html"
+
+#: dist/blocks.build.js:9710
+msgctxt "Profile URL of the person."
+msgid "Same As"
+msgstr "Zugehörige (Profil)Websites"
+
+#: dist/blocks.build.js:9710
+msgctxt "Add another URL to a profile of the person."
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#: dist/blocks.build.js:9723
+msgctxt "Title of the course."
+msgid "Course"
+msgstr "Kurs"
+
+#: dist/blocks.build.js:9723
+msgid "course"
+msgstr "Kurs"
+
+#: dist/blocks.build.js:9748
+msgctxt "Give the course a name."
+msgid "Enter your course name here."
+msgstr "Hier Kursnamen eingeben."
+
+#: dist/blocks.build.js:9748
+msgctxt "Enter a detailed description of the course."
+msgid "Enter your description here…"
+msgstr "Hier Beschreibung eingeben."
+
+#: dist/blocks.build.js:9748
+msgctxt "Add details of the course provider."
+msgid "Provider Information"
+msgstr "Anbieterinformationen"
+
+#: dist/blocks.build.js:9748
+msgctxt "Name of the course provider"
+msgid "Provider Name"
+msgstr "Anbietername"
+
+#: dist/blocks.build.js:9748
+msgctxt "Concrete name of the course provider."
+msgid "John Doe"
+msgstr "Max Mustermann"
+
+#: dist/blocks.build.js:9748
+msgctxt "Enter a additional profile URL of the course provider."
+msgid "Same as (Website / Social Media)"
+msgstr "Zugehörige (Kurs)Websites"
+
+#: dist/blocks.build.js:9748
+msgctxt "Concrete profile URL of the course provider."
+msgid "https://your-website.com"
+msgstr "https://deine-website.de"
+
+#: dist/blocks.build.js:9748
+msgctxt "Select a tag of the course title."
+msgid "Title tag"
+msgstr "Title tag"
+
+#: dist/blocks.build.js:9748
+msgctxt "Generate a title ID"
+msgid "Generate a title ID for the Course title."
+msgstr "Title-ID (id=#...) für Kurs-Überschrift erstellen."
+
+#: dist/blocks.build.js:9748
+msgctxt "Add a additional course."
+msgid "Add one"
+msgstr "Hinzufügen"
+
+#: dist/blocks.build.js:9758
+msgctxt "Local Business block title"
+msgid "Local Business"
+msgstr "Lokales Geschäft"
+
+#: dist/blocks.build.js:9758
+msgctxt "local business search"
+msgid "local business search"
+msgstr "Lokale Geschäftssuche"
+
+#: dist/blocks.build.js:9758
+msgctxt "structured content element local business"
+msgid "structured-content"
+msgstr "SC LocalBusiness"
+
+#: dist/blocks.build.js:9770
+msgctxt "opening hours placeholder"
+msgid "Mo 10:00-16:00"
+msgstr "Mo 10:00-16:00"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter a additional profile URL to the local business."
+msgid "https://xyz.com/me.html"
+msgstr "https://unternehmen.de/standort-a/"
+
+#: dist/blocks.build.js:9770
+msgctxt "Name of your Business"
+msgid "Your Business Name "
+msgstr "Name des Geschäfts/Standorts"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter a detailed description of the business."
+msgid "Describe your business"
+msgstr "Beschreibung des Standortes"
+
+#: dist/blocks.build.js:9770
+msgctxt "Some details about the local business."
+msgid "Business"
+msgstr "Details zu dem lokalen Geschäft, zu dem Standort."
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual email of the business"
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete email address of the business."
+msgid "Please enter your business email here."
+msgstr "Bitte geben Sie hier die geschäftliche E-Mail-Adresse ein."
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual telephone of the business"
+msgid "Telephone"
+msgstr "Telefon"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete telephone number of the business."
+msgid "Please enter your business telephone here."
+msgstr "Telefonnummer (geschäftlich) eintragen."
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual website of the business"
+msgid "Website"
+msgstr "Website"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete website of the business."
+msgid "Please enter your business website here."
+msgstr "URL zur Standort-Seite eintragen."
+
+#: dist/blocks.build.js:9770
+msgctxt "Image of the local business."
+msgid "Image"
+msgstr "Bild"
+
+#: dist/blocks.build.js:9770
+msgctxt "Select image of the local business now."
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: dist/blocks.build.js:9770
+msgctxt "Remove the image of the local business."
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: dist/blocks.build.js:9770
+msgctxt "Logo of the business."
+msgid "Logo"
+msgstr "Logo"
+
+#: dist/blocks.build.js:9770
+msgctxt "Select logo of the business now."
+msgid "Add Logo"
+msgstr "Logo hinzufügen"
+
+#: dist/blocks.build.js:9770
+msgctxt "Remove the logo of the business."
+msgid "Remove Logo"
+msgstr "Bild entfernen"
+
+#: dist/blocks.build.js:9770
+msgctxt "How to get in touch with the local business?"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: dist/blocks.build.js:9770
+msgctxt "Contact Type of the business."
+msgid "Contact Type"
+msgstr "Kontaktart"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete Contact Type of the business"
+msgid "Customer Support"
+msgstr "Kundenhilfe"
+
+#: dist/blocks.build.js:9770
+msgctxt "E-Mail of the local business."
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete email of the local business."
+msgid "jane-doe@xyz.edu"
+msgstr "max@mustermann.de"
+
+#: dist/blocks.build.js:9770
+msgctxt "URL to a profile of the local business."
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete URL of the local business."
+msgid "http://www.janedoe.com"
+msgstr "https://wpsc-plugin.de"
+
+#: dist/blocks.build.js:9770
+msgctxt "Telephone number of the local business."
+msgid "Telephone"
+msgstr "Telefon"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter concrete telephone number of the local business."
+msgid "(425) 123-4567"
+msgstr "0345-12345-67"
+
+#: dist/blocks.build.js:9770
+msgctxt "Address of the local business."
+msgid "Address"
+msgstr "Adresse"
+
+#: dist/blocks.build.js:9770
+msgctxt "Insert the street name where the local business live."
+msgid "Street"
+msgstr "Straße"
+
+#: dist/blocks.build.js:9770
+msgctxt "The concrete street name where the local business live."
+msgid "Any Street 3A"
+msgstr "Beispielstrasse 3A"
+
+#: dist/blocks.build.js:9770
+msgctxt "Insert postal code where the local business live."
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: dist/blocks.build.js:9770
+msgctxt "The concrete postal code where the local business live."
+msgid "Any postal code"
+msgstr "06114"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter the place name where the local business live."
+msgid "Locality"
+msgstr "Ort"
+
+#: dist/blocks.build.js:9770
+msgctxt "The concrete city name where the local business live."
+msgid "Any city"
+msgstr "Musterstadt"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter the iso code of the country where the local business live."
+msgid "Country ISO Code"
+msgstr "Land (ISO Code)"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter the iso code of the region where the local business live."
+msgid "Region ISO Code"
+msgstr "Region (ISO Code)"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter the latitude of the business."
+msgid "Latitude"
+msgstr "Latitude (Breitengrad)"
+
+#: dist/blocks.build.js:9770
+msgctxt "Enter the longitude of the business."
+msgid "Longitude"
+msgstr "Longitude (Längengrad)"
+
+#: dist/blocks.build.js:9770
+msgctxt "Details about the business."
+msgid "Meta"
+msgstr "Meta"
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual founding date of the business"
+msgid "Founding Date"
+msgstr "Gründungsdatum"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete founding date number of the business."
+msgid "YYYY-MM-DD or YYYY"
+msgstr "JJJJ-MM-TT oder nur JJJJ"
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual accepted currencies of the business"
+msgid "Currencies Accepted"
+msgstr "Akzeptierte Währungen"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete accepted currencies number of the business."
+msgid "USD or EUR"
+msgstr "USD oder EUR ... "
+
+#: dist/blocks.build.js:9770
+msgctxt "Actual price range of the business"
+msgid "Price Range"
+msgstr "Preisspanne"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete price range number of the business."
+msgid "$-$$$$$"
+msgstr "€ - €€€€€"
+
+#: dist/blocks.build.js:9770
+msgctxt "Map Link of the business."
+msgid "Has Map"
+msgstr "Hat einen Maps Eintrag"
+
+#: dist/blocks.build.js:9770
+msgctxt "Concrete map Link of the business."
+msgid "https://goo.gl/maps/…"
+msgstr "https://goo.gl/maps/…"
+
+#: dist/blocks.build.js:9770
+msgctxt "Business Opening Hours."
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+#: dist/blocks.build.js:9770
+msgctxt "Add more opening hours."
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#: dist/blocks.build.js:9770
+msgctxt "Profile URL of the local business."
+msgid "Same As"
+msgstr "Zugehörige (Profil)Websites"
+
+#: dist/blocks.build.js:9770
+msgctxt "Add another URL to a profile of the local business."
+msgid "Add One"
+msgstr "Hinzufügen"
+
+#~ msgctxt "Assign an optional CSS class for the local business block"
+#~ msgid "CSS class"
+#~ msgstr "CSS Klasse"
+
+#~ msgctxt "Add the CSS class for the local business block."
+#~ msgid "Additional CSS classes."
+#~ msgstr "Zusätzliche CSS-Klasse."
+
+#~ msgctxt "Assign an optional CSS class for the course block"
+#~ msgid "CSS class"
+#~ msgstr "CSS-Klasse"
+
+#~ msgctxt "Add the css class name of the course block."
+#~ msgid "Optional CSS class name …"
+#~ msgstr "Optionale CSS-Klasse."
+
+#~ msgctxt "Assign an optional CSS class for the event block"
+#~ msgid "CSS class"
+#~ msgstr "CSS Klasse"
+
+#~ msgctxt "Add the css class name of the event block."
+#~ msgid "additional css classes …"
+#~ msgstr "Zusätzliche CSS-Klasse"
+
+#~ msgctxt "Assign an optional CSS class for the FAQ block"
+#~ msgid "CSS class"
+#~ msgstr "CSS-Klasse"
+
+#~ msgctxt "Add the CSS class name of the job block."
+#~ msgid "Additional CSS classes"
+#~ msgstr "Zusätzliche CSS-Klasse"
+
+#~ msgctxt "Add the CSS class name of the job block."
+#~ msgid "Additional CSS classes."
+#~ msgstr "Zusätzliche CSS-Klasse."
+
+#~ msgctxt "Assign an optional CSS class for the job block"
+#~ msgid "CSS class"
+#~ msgstr "CSS Klasse"
+
+#~ msgctxt "Concrete founding date number of the business."
+#~ msgid "Please enter your business founding date here."
+#~ msgstr "JJJJ-MM-TT oder nur JJJJ"
+
+#~ msgctxt "Concrete accepted currencies number of the business."
+#~ msgid "Please enter your business accepted currencies here."
+#~ msgstr "USD oder EUR"
+
+#~ msgctxt "Concrete price range number of the business."
+#~ msgid "Please enter your business price range here."
+#~ msgstr "€ - €€€€€"
+
+#~ msgctxt "Assign an optional CSS class for the person block"
+#~ msgid "CSS class"
+#~ msgstr "CSS-Klasse"
+
+#~ msgctxt "Add the CSS class for the person block."
+#~ msgid "Additional CSS classes."
+#~ msgstr "Zusätzliche CSS-Klasse."
+
+#, fuzzy
+#~| msgid "Job Location"
+#~ msgctxt "Is the job telecommute?"
+#~ msgid "Location Type"
+#~ msgstr "Arbeitsort"
+
+#, fuzzy
+#~| msgid "URL"
+#~ msgctxt "Actual url of the business"
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#, fuzzy
+#~| msgctxt "Enter the name of the person."
+#~| msgid "Please enter your name here."
+#~ msgctxt "Concrete url of the business."
+#~ msgid "Please enter your business url here."
+#~ msgstr "Bitte Deinen Namen hier eingeben ..."
+
+#~ msgctxt "Details/description about the job offer."
+#~ msgid "Enter your job description here..."
+#~ msgstr "Hier Stellenbeschreibung eingeben."
+
+#~ msgctxt "Describe the event for the visitors"
+#~ msgid "Enter your event description here..."
+#~ msgstr "Beschreibe die Veranstaltung."
+
+#~ msgctxt "Add the css class name of the event block."
+#~ msgid "additional css classes ..."
+#~ msgstr "Zusätzliche CSS-Klasse."
+
+#~ msgctxt "Concrete alternate name of the person."
+#~ msgid "Alternate name."
+#~ msgstr "Alternativen Namen eingeben"
+
+#, fuzzy
+#~| msgid "Valid Through"
+#~ msgid "Valid Trough"
+#~ msgstr "Gültig bis"
+
+#~ msgid "Enter Your Course Name here..."
+#~ msgstr "Hier Kursname eingeben."
+
+#~ msgid "EVENT Location"
+#~ msgstr "Veranstaltungsort"
+
+#~ msgid "PERFORMER"
+#~ msgstr "Interpret"
+
+#~ msgid "Question tag"
+#~ msgstr "Fragen-Tag"
+
+#~ msgid "Enter your Event Description here..."
+#~ msgstr "Hier Veranstaltungsbeschreibung eingeben."
+
+#~ msgid "Professor"
+#~ msgstr "Professor"
+
+#~ msgid "https://gitlab.com/webwirtschaft/structured-content"
+#~ msgstr "https://gitlab.com/webwirtschaft/structured-content"
+
+#~ msgid "Cheating huh?"
+#~ msgstr "Schummeln gilt nicht!?"
+
+#~ msgid "Image Settings"
+#~ msgstr "Bildeinstellungen"
+
+#~ msgid "Enter an image description here ..."
+#~ msgstr "Geben Sie hier eine Bildbeschreibung ein...."
