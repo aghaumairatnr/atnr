@@ -1119,6 +1119,9 @@ class Sanitize {
                 'value'    => true,
                 'selected' => true,
             ),
+            'optgroup' => array(
+                'label' => true
+            ),
             'textarea' => array(
                 'autocomplete' => true,
             ),

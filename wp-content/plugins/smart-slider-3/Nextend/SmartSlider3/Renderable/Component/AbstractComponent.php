@@ -530,7 +530,7 @@ abstract class AbstractComponent {
     public function createColorProperty($name, $allowVariable, $default = null) {
         $value = $this->data->get($name, $default);
 
-        if (!$allowVariable || ($value !== NULL && $value[0] != '{')) {
+        if (!$allowVariable || ($value !== NULL && substr($value, 0, 1) != '{')) {
             $l = strlen($value);
             if (($l != 6 && $l != 8) || !preg_match('/^[0-9A-Fa-f]+$/', $value)) {
                 $value = $default;

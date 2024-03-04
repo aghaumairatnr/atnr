@@ -281,12 +281,15 @@ class PostsCustomPosts extends AbstractGenerator {
             $getPostMeta   = array(
                 'meta_query' => array(
                     array(
-                        'key'   => $postMetaKey,
-                        'value' => $postMetaValue,
-                        'type'  => $this->data->get('postmetatype', 'CHAR')
+                        'key'  => $postMetaKey,
+                        'type' => $this->data->get('postmetatype', 'CHAR')
                     ) + $compare
                 )
             );
+
+            if ($compare_value != 'EXISTS' && $compare_value != 'NOT EXISTS') {
+                $getPostMeta['meta_query'][0]['value'] = $postMetaValue;
+            }
         } else {
             $getPostMeta = array();
         }

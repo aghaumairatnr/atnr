@@ -3,8 +3,8 @@ Contributors: nextendweb
 Tags: slider, wordpress slider, image slider, layer slider, responsive slider, slideshow, fullwidth slider, post slider, horizontal slider, vertical slider, photo slider, video slider
 Donate link: https://sites.fastspring.com/nextend/product/smartslider3donate
 Requires at least: 5.0
-Tested up to: 6.4
-Stable tag: 3.5.1.19
+Tested up to: 6.4.1
+Stable tag: 3.5.1.21
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -205,17 +205,32 @@ Of course! Smart Slider use protocol relative urls which works fine on http:// a
 
 == Screenshots ==
 
-1. Dashboard
-2. Slider settings
-3. Slide editing
-4. Full width responsive slider with gradient and layers. Made with FREE version.
-5. Simple image slider with caption and arrows. Made with FREE version.
-6. Thumbnail image slider. Made with FREE version.
-7. Image slider with static slide on it. Made with FREE version.
-8. Full width content post slider. Made with FREE version.
-9. Layer slider with layers styles. Made with FREE version.
+1. User-friendly dashboard in our slider plugin for seamless management.
+2. Effortlessly customize your WordPress slider with our intuitive settings page.
+3. Create captivating slides with ease, using our WordPress slider's beginner-friendly editing tools.
+4. Enhance your site with our FREE full-width responsive slider, featuring gradients and layers.
+5. Discover our FREE, easy-to-use image slider with captions and navigation arrows.
+6. Explore our FREE Thumbnail Image Slider – a visually engaging addition to your website.
+7. Experience the FREE version's dynamic Image Slider with a captivating static slide.
+8. Enhance your site with our FREE Full-Width Content Post Slider.
+9. Enhance your site with our FREE Layer Slider's stylish layers for a better user experience.
 
 == Changelog ==
+
+= 3.5.1.21 - 15. November 2023 =
+* Fix: Previous widget rendering fix undone. Our widget will render, even when the theme doesn't supports it, because you can use widgets in themes that way too.
+
+= 3.5.1.20 - 14. November 2023 =
+* Fix: WP Compress compatibility.
+* Fix: Our widget won't render, when the theme doesn't supports it.
+* Fix: YouTube layer's video won't start on mobiles when the video is started before the page completely loaded.
+* Fix: Row and Column background colors can create an error message in PHP 8.1+, when their color codes only contain numbers.
+* Fix: The path of some images created PHP errors.
+* Fix: iOS devices opened parent element links twice, when a text layer was clicked on them.
+* Feature: Iframe Title option for Vimeo layer.
+* Other: Black Friday sale notification added.
+* Other: Spanish translation update. Thanks Rodrigo!
+* Removed: A fix for an old Safari bug won't be needed anymore, as it got resolved quite a while ago.
 
 = 3.5.1.19 - 14. August 2023 =
 * Fix: Some WordPress 6.3 block theme editors (site editor, widget manager or page editor) won't load next to Smart Slider.

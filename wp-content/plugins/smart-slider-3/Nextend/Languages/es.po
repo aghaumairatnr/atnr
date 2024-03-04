@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-01-18 09:52+0100\n"
-"PO-Revision-Date: 2023-01-24 19:04-0300\n"
+"POT-Creation-Date: 2023-06-09 14:38+0200\n"
+"PO-Revision-Date: 2023-08-12 15:51-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: ;n2_;n2_e;n2_n:1,2;n2_en:1,2;n2_x:1,2c;n2_ex:1,2c\n"
 "X-Poedit-Flags-xgettext: --no-location\n"
@@ -62,6 +62,12 @@ msgid "Security token mismatch. Please refresh the page!"
 msgstr ""
 "El token de seguridad no es válido. ¡Por favor carga nuevamente la página!"
 
+msgid "Unexpected database error."
+msgstr "Error inesperado de la base de datos."
+
+msgid "Try to repair database"
+msgstr "Intenta reparar la base de datos"
+
 #, php-format
 msgid ""
 "If you see this message after the repair database process, please "
@@ -72,12 +78,6 @@ msgstr ""
 
 msgid "Contact your server host and ask them to fix this for you!"
 msgstr "¡Contacta tu proveedor de hosting y pide que corrijan esto para ti!"
-
-msgid "Unexpected database error."
-msgstr "Error inesperado de la base de datos."
-
-msgid "Try to repair database"
-msgstr "Intenta reparar la base de datos"
 
 msgid "Font manager"
 msgstr "Administrador de fuentes"
@@ -1745,9 +1745,6 @@ msgstr "Tamaño de archivo máximo"
 msgid "Other"
 msgstr "Otro"
 
-msgid "JetPack Photon image optimizer"
-msgstr "Optimizador de imagen JetPack Photon"
-
 msgid "Background video on mobile"
 msgstr "Fondo de video en móvil"
 
@@ -1995,6 +1992,9 @@ msgstr "Posibles conflictos"
 
 msgid "Test connection"
 msgstr "Probar conexión"
+
+msgid "Analyze & repair possible database issues"
+msgstr "Analiza y repara posibles errores en la base de datos"
 
 msgid "No conflicts detected."
 msgstr "No se detectaron conflictos."
@@ -2889,8 +2889,8 @@ msgstr ""
 msgid "WordPress settings"
 msgstr "Opciones de Wordpress"
 
-msgid "Show editor icon"
-msgstr "Mostrar ícono del editor"
+msgid "Show button in TinyMCE editor"
+msgstr "Mostrar el botón en el editor TinyMCE"
 
 msgid "Show in admin bar"
 msgstr "Mostrar en la barra de administración"
@@ -3409,14 +3409,41 @@ msgstr "Destacado"
 msgid "User ID"
 msgstr "ID del usuario"
 
+msgid "Created by"
+msgstr "Creado por"
+
+msgid "The ID number of the article's author. Only one number is accepted."
+msgstr "El número ID del autor del artículo. Solo se acepta un número."
+
 msgid "Included article IDs"
 msgstr "IDs de artículos incluidos"
+
+msgid ""
+"Write down article ID numbers separated by commas, to include them in the "
+"result. For example: 1,12,25"
+msgstr ""
+"Escribe los números de ID de los artículos separados por comas, para "
+"incluirlos en los resultados. Por ejemplo: 1,12,25"
 
 msgid "Excluded article IDs"
 msgstr "IDs de artículos excluidos"
 
+msgid ""
+"Write down article ID numbers separated by commas, to exclude them from the "
+"result. For example: 2,14,27"
+msgstr ""
+"Escribe los números de ID de los artículos separados por comas, para "
+"excluirlos de los resultados. Por ejemplo: 2,14,27"
+
 msgid "Language"
 msgstr "Idioma"
+
+msgid ""
+"The language code of your articles. Multiple language codes should be "
+"separated by commas, for example: en-GB,hu-HU,es-ES"
+msgstr ""
+"El código de lenguaje de tus artículos. Si incluyes más de un código, debes "
+"separarlos por una coma, por ejemplo: en-GB,hu-HU,es-ES"
 
 msgid "Fields"
 msgstr "Campos"
@@ -6554,7 +6581,7 @@ msgstr ""
 "Por favor ten en cuenta que %1$sno damos soporte%2$s sobre la capa de "
 "módulos de Joomla.%3$sEl código que carga el modulo con frecuencia necesita "
 "código personalizado que debes escribir, ¡Te sugerimos que utilices esta "
-"capa solo sí eres un desarrollador/a!"
+"capa solo sí eres un/a desarrollador/a!"
 
 msgid "Position name or module ID"
 msgstr "Nombre de la posición o ID del módulo"
@@ -6817,6 +6844,12 @@ msgstr "Color de la pista"
 
 msgid "Bar color"
 msgstr "Color de la barra"
+
+#~ msgid "JetPack Photon image optimizer"
+#~ msgstr "Optimizador de imagen JetPack Photon"
+
+#~ msgid "Show editor icon"
+#~ msgstr "Mostrar ícono del editor"
 
 #~ msgid "Debug error"
 #~ msgstr "Error de depuración"

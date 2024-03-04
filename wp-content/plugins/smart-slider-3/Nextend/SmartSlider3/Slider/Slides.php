@@ -71,81 +71,85 @@ class Slides {
 
         $slides = &$this->slides;
 
-        for ($i = 0; $i < count($slides); $i++) {
-            $slides[$i]->initGenerator($extendGenerator);
-        }
-
-        for ($i = count($slides) - 1; $i >= 0; $i--) {
-            if ($slides[$i]->hasGenerator()) {
-                array_splice($slides, $i, 1, $slides[$i]->expandSlide());
-            }
-        }
-
-        $this->legacyFixOnlyStaticOverlays($slides);
-
-        $staticSlides = array();
-        for ($j = count($slides) - 1; $j >= 0; $j--) {
-            $slide = $slides[$j];
-            if ($slide->isStatic()) {
-                $staticSlides[] = $slide;
-                $this->slider->addStaticSlide($slide);
-                array_splice($slides, $j, 1);
-            }
-        }
-
-        $randomize      = intval($this->slider->params->get('randomize', 0));
-        $randomizeFirst = intval($this->slider->params->get('randomizeFirst', 0));
-        $randomizeCache = intval($this->slider->params->get('randomize-cache', 0));
-        if (!$randomizeCache && $randomize) {
-            shuffle($slides);
-        }
-
-        $reverse = intval($this->slider->params->get('reverse-slides', 0));
-        if ($reverse) {
-            $slides = array_reverse($slides);
-        }
-
-        if ($this->maximumSlideCount > 0) {
-            $mustShowSlides = array();
-            if (!empty($slidesData)) {
-                for ($i = count($slides) - 1; $i >= 0; $i--) {
-                    if (isset($slidesData[$slides[$i]->id])) {
-                        $mustShowSlides[] = $slides[$i];
-                    }
-                }
-            }
-            array_splice($slides, $this->maximumSlideCount);
-
-            if (!empty($mustShowSlides)) {
-                for ($i = count($mustShowSlides) - 1; $i >= 0; $i--) {
-                    if (!in_array($mustShowSlides[$i], $slides)) {
-                        array_pop($slides);
-                    } else {
-                        array_splice($mustShowSlides, $i, 1);
-                    }
-                }
-                $slides = array_merge($slides, $mustShowSlides);
-            }
-
-        }
-
-        if (!$randomizeCache && $randomizeFirst) {
-            $this->slider->setActiveSlide($slides[mt_rand(0, count($slides) - 1)]);
-        } else {
+        if (count($slides)) {
             for ($i = 0; $i < count($slides); $i++) {
-                if ($slides[$i]->isFirst()) {
-                    $this->slider->setActiveSlide($slides[$i]);
-                    break;
+                $slides[$i]->initGenerator($extendGenerator);
+            }
+
+            for ($i = count($slides) - 1; $i >= 0; $i--) {
+                if ($slides[$i]->hasGenerator()) {
+                    array_splice($slides, $i, 1, $slides[$i]->expandSlide());
                 }
             }
-        }
 
-        if (count($slides) == 1 && $this->slider->params->get('autoplay', 0) && $this->slider->data->get('type') === 'simple' && !$slides[0]->hasGenerator()) {
-            $slides[1] = clone $slides[0];
-        }
+            $this->legacyFixOnlyStaticOverlays($slides);
 
-        for ($i = 0; $i < count($slides); $i++) {
-            $slides[$i]->setPublicID($i + 1);
+            $staticSlides = array();
+            for ($j = count($slides) - 1; $j >= 0; $j--) {
+                $slide = $slides[$j];
+                if ($slide->isStatic()) {
+                    $staticSlides[] = $slide;
+                    $this->slider->addStaticSlide($slide);
+                    array_splice($slides, $j, 1);
+                }
+            }
+
+            $randomize      = intval($this->slider->params->get('randomize', 0));
+            $randomizeFirst = intval($this->slider->params->get('randomizeFirst', 0));
+            $randomizeCache = intval($this->slider->params->get('randomize-cache', 0));
+            if (!$randomizeCache && $randomize) {
+                shuffle($slides);
+            }
+
+            $reverse = intval($this->slider->params->get('reverse-slides', 0));
+            if ($reverse) {
+                $slides = array_reverse($slides);
+            }
+
+            if ($this->maximumSlideCount > 0) {
+                $mustShowSlides = array();
+                if (!empty($slidesData)) {
+                    for ($i = count($slides) - 1; $i >= 0; $i--) {
+                        if (isset($slidesData[$slides[$i]->id])) {
+                            $mustShowSlides[] = $slides[$i];
+                        }
+                    }
+                }
+                array_splice($slides, $this->maximumSlideCount);
+
+                if (!empty($mustShowSlides)) {
+                    for ($i = count($mustShowSlides) - 1; $i >= 0; $i--) {
+                        if (!in_array($mustShowSlides[$i], $slides)) {
+                            array_pop($slides);
+                        } else {
+                            array_splice($mustShowSlides, $i, 1);
+                        }
+                    }
+                    $slides = array_merge($slides, $mustShowSlides);
+                }
+
+            }
+
+            if (count($slides)) {
+                if (!$randomizeCache && $randomizeFirst) {
+                    $this->slider->setActiveSlide($slides[mt_rand(0, count($slides) - 1)]);
+                } else {
+                    for ($i = 0; $i < count($slides); $i++) {
+                        if ($slides[$i]->isFirst()) {
+                            $this->slider->setActiveSlide($slides[$i]);
+                            break;
+                        }
+                    }
+                }
+
+                if (count($slides) == 1 && $this->slider->params->get('autoplay', 0) && $this->slider->data->get('type') === 'simple' && !$slides[0]->hasGenerator()) {
+                    $slides[1] = clone $slides[0];
+                }
+
+                for ($i = 0; $i < count($slides); $i++) {
+                    $slides[$i]->setPublicID($i + 1);
+                }
+            }
         }
     }
 

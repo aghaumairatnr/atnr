@@ -247,6 +247,8 @@ class ItemVimeo extends AbstractItem {
             'tipLabel'       => n2_('Quality'),
             'tipDescription' => n2_('Only works on videos of Vimeo Pro users.')
         ));
+
+        new Text($display, 'iframe-title', n2_('Iframe title'));
     }
 
 }

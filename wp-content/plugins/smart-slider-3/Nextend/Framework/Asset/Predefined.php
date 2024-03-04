@@ -50,16 +50,6 @@ class Predefined {
     
         Js::addGlobalInline('(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);');
 
-        /*
-         * +1px needed for Safari to fix: https://bugs.webkit.org/show_bug.cgi?id=225962
-        (function(ua){
-            if(ua.indexOf('Safari') > 0 && ua.indexOf('Chrome') === -1){
-                document.documentElement.style.setProperty('--ss-safari-fix-225962', '1px');
-            }
-        })(navigator.userAgent);
-        */
-        Js::addGlobalInline('!function(a){a.indexOf("Safari")>0&&-1===a.indexOf("Chrome")&&document.documentElement.style.setProperty("--ss-safari-fix-225962","1px")}(navigator.userAgent);');
-
         Js::addStaticGroup(ApplicationTypeFrontend::getAssetsPath() . "/dist/n2.min.js", 'n2');
 
         FontSources::onFontManagerLoad($force);

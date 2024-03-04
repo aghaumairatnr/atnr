@@ -108,6 +108,18 @@ class OutputBuffer {
                 ));
             });
         }
+
+        if (class_exists('wps_ic')) {
+            /**
+             * @see SSDEV-3916
+             */
+            add_action('template_redirect', function () {
+                ob_start(array(
+                    $this,
+                    "outputCallback"
+                ));
+            });
+        }
     }
 
     /**
